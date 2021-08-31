@@ -1,49 +1,73 @@
 <!Doctype html>
 <html>
-    <head>
-            <title> Formulário</title>
 
-    </head>
-    <body>
+<head>
+  <title> Formulário</title>
 
-        <form action="file:///C:/Users/Felipe%20Alencar/Desktop/Mack/1_semestre/fundamentos_web/trabalho2/pagina1.html" method="get">
-        <table border="2px">
-          <thead><tr><th> Preencha os Dados para entrar em contato:
-          </th></tr></thead>
-          <tbody><tr><td>
+</head>
 
-            <label>Nome: </label>
-              <input type="text" placeholder="Digite seu nome" id="nome" name="nome"><br/>
-            <label>E-mail: </label>
-              <input type="email" placeholder="Digite seu e-mail" id="email" name="email"><br/>
+<body>
 
-      <p>Selecione seu gênero<br/>
-      <input type="radio" id="masculino" name="genero" value="masculino">
-        <label for="masculino">Masculino</label>
-      <input type="radio" id="feminino" name="genero" value="feminino">
-        <label for="feminino">Feminino</label>
-      <input type="radio" id="nao_bin" name="genero" value="nao_bin">
-        <label for="nao_bin">Não binário</label>
-      <input type="radio" id="nao_informado" name="genero" value="nao_informado">
-        <label for="nao_informado">Prefiro não informar</label><br/><p>
+  <form action="file:///C:/Users/Felipe%20Alencar/Desktop/Mack/1_semestre/fundamentos_web/trabalho2/pagina1.html" method="get">
 
-    <label> Qual o motivo do seu contato?</label>
-      <select name="motivo">
-        <option value="Pergunta">Pergunta</option>
-        <option value="Comentário">Comentário</option>
-        <option value="Correção">Correção</option>
-        <option value="Dica/Pedido">Dica/Pedido</option>
-      </select><br/><br/>
-    <label>Qual sua mensagem?</label><br/>
-      <textarea name="text_a_enviar" placeholder="Digite aqui sua mensagem..." rows="8" cols="50" required></textarea><br/>
-    <input type="checkbox" name="receber_email" value="sim">
-      <label>Gostaria de receber nossos e-mails?</label>
-    <p><input type="submit" value="Enviar">
-    <input type="reset" value="Deletar"></p>
-        </td></tr></tbody>
+    <table border="2px">
+      <tr>
+        <td>
+      <tr>
+        <th> Preencha os Dados para entrar em contato:
+        </th>
+      </tr>
 
-  <tr><th>Obrigado por entrar em contato</th><tr>
-</table>
-    </form>
-  </body>
+
+      <tr>
+        <td> <label>Nome: </label>
+          <input type="text" placeholder="Digite seu nome" id="nome" name="nome"><br />
+          <label>E-mail: </label>
+          <input type="email" placeholder="Digite seu e-mail" id="email" name="email"><br />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p> Selecione seu gênero<br />
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="nao_bin" name="genero" value="nao_bin">
+            <label for="nao_bin">Não binário</label><br />
+            <input type="radio" id="nao_informado" name="genero" value="nao_informado">
+            <label for="nao_informado">Prefiro não informar</label><br />
+          <p>
+        </td>
+      </tr>
+
+      <tr>
+        <td> <label> Qual o motivo do seu contato?</label>
+          <select name="motivo">
+            <option value="Pergunta">Pergunta</option>
+            <option value="Comentário">Comentário</option>
+            <option value="Correção">Correção</option>
+            <option value="Dica/Pedido">Dica/Pedido</option>
+          </select><br /><br />
+          <label>Qual sua mensagem?</label><br />
+          <textarea name="text_a_enviar" placeholder="Digite aqui sua mensagem..." rows="8" cols="50" required></textarea><br />
+          <input type="checkbox" name="receber_email" value="sim">
+          <label>Gostaria de receber nossos e-mails?</label>
+        </td>
+      </tr>
+      <tr>
+        <th><input type="submit" value="Enviar">
+          <input type="reset" value="Deletar">
+        </th>
+      </tr>
+
+
+      <tr>
+        <th>Obrigado por entrar em contato</th>
+      </tr>
+    </table>
+  </form>
+</body>
+
 </html>
