@@ -1,0 +1,102 @@
+html {
+  margin: 5px 15px 10px 15px;
+  color: #050505;
+}
+
+section {
+  background-color: #E0E0E0;
+  border: 3px ridge;
+  padding: 10px 15px 10px 15px;
+  max-width: fit-content;
+  height: auto;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+header {
+  position: sticky;
+  height: auto;
+  width: auto;
+  color: #050505;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  border-bottom: 2px ridge #999999;
+  border-radius: 9px;
+  border-top: 2px ridge #999999;
+  margin: 10px;
+}
+
+.divisao_com_borda {
+  border: 3px ridge;
+  padding: 15px 15px 15px 15px;
+}
+
+.alinhar_centro {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  margin-left: 15px;
+  font-family: 'Dosis', sans-serif;
+}
+
+#ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #383838;
+  border-radius: 4px;
+}
+
+#li1 {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+#li1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#li1 a:hover {
+  background-color: #787878;
+}
+.li1 a:hover {
+  background-color: #787878;
+}
+
+.li1 {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.li1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li1 a:hover {
+  background-color: #787878;
+}

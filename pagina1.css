@@ -3,10 +3,10 @@ html {
   background-color: #E0E0E0;
   color: #050505;
 }
-body{
+
+body {
   width: inherit;
   height: inherit;
-
 }
 
 header {
@@ -14,7 +14,6 @@ header {
   height: auto;
   width: auto;
   color: #050505;
-  font-size: auto;
   font-family: 'Playfair Display', serif;
   text-align: center;
   border-bottom: 2px ridge #999999;
@@ -62,51 +61,40 @@ p {
 
 #artigo2 {
   color: #000000;
-  width: inherit;
-  height: 100%;
-
-  padding: 10px;
+  max-width: fit-content;
+  height: auto;
+  border: 1px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 8px;
   margin: 20px;
-}
-
-
-}
-#clearfix {
-  clear: both;
-
+  border-left: 3px ridge;
+  border-right: 2px ridge;
+  border-top: 2px ridge;
+  border-bottom: 2px ridge;
 }
 
 #div1 {
-
   height: 150px;
   padding: 0px 30px 0px 1px;
   max-height: 100%;
-  width:auto;
+  width: auto;
   position: sticky;
-
 }
 
 #div2 {
-
   max-height: 100%;
   width: auto;
   padding: 0px 0px 0px 10px;
   position: relative;
-
-}
-div.box {
-	width: 150px;
-	display: inline-block;
 }
 
 #botao_5g {
-  max-width: inherit;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   border: 1px;
   border-width: thin;
   margin-bottom: 35px;
-
 }
 
 iframe {
@@ -114,13 +102,11 @@ iframe {
   height: auto;
 }
 
-
-nav{
-   display: flex;
-   justify-content: left;
-   margin-left: 15px;
-   font-family: 'Dosis', sans-serif;
-
+nav {
+  display: flex;
+  justify-content: left;
+  margin-left: 15px;
+  font-family: 'Dosis', sans-serif;
 }
 
 #ul1 {
@@ -134,7 +120,7 @@ nav{
 
 #li1 {
   float: left;
-   border-right: 1px solid #bbb;
+  border-right: 1px solid #bbb;
 }
 
 #li1 a {
@@ -144,14 +130,28 @@ nav{
   padding: 14px 16px;
   text-decoration: none;
 }
-#li1 a:hover {
+
+.li1 a:hover {
   background-color: #787878;
 }
 
-
-#botao_fale_conosco {
-  float: right;
+.li1 {
+  float: left;
+  border-right: 1px solid #bbb;
 }
+
+.li1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li1 a:hover {
+  background-color: #787878;
+}
+
 #imagem_pagina_2 {
   max-width: 30%;
   height: auto;
@@ -159,5 +159,4 @@ nav{
   margin: 10px 20px 0px 12px;
   border-style: solid;
   border-width: 1px;
-
 }
