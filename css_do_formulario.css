@@ -1,6 +1,11 @@
 html {
   margin: 5px 15px 10px 15px;
   color: #050505;
+  background-image: url("logotipo_fundo_branco.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 290px;
+
 }
 
 section {

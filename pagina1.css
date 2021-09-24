@@ -2,14 +2,27 @@ html {
   margin: 5px 15px 10px 15px;
   background-color: #E0E0E0;
   color: #050505;
+  background-image: url("logotipo.png");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: bottom right;
+  background-size: 290px;
+
 }
 
 body {
   width: inherit;
   height: inherit;
+
+
+}
+
+#tirar_decoracao {
+  text-decoration:none
 }
 
 header {
+
   position: sticky;
   height: auto;
   width: auto;
@@ -20,6 +33,7 @@ header {
   border-radius: 9px;
   border-top: 2px ridge #999999;
   margin: 10px;
+
 }
 
 h1 {
@@ -47,6 +61,8 @@ p {
   border-right: 2px ridge;
   border-top: 2px ridge;
   border-bottom: 2px ridge;
+
+
 }
 
 #imagem1 {
@@ -63,15 +79,40 @@ p {
   color: #000000;
   max-width: fit-content;
   height: auto;
-  border: 1px;
   padding: 10px 25px 10px 25px;
+
+
+
+}
+#article_float_1{
+  float: left;
+  margin: 0px 30px 0px 0px;
+  position: relative;
+  border: 1px;
+  padding: 20px 20px 10px 20px;
   border-radius: 8px;
-  margin: 20px;
   border-left: 3px ridge;
   border-right: 2px ridge;
   border-top: 2px ridge;
   border-bottom: 2px ridge;
+
 }
+#article_float_2{
+  float:left;
+  margin: 20px 0px 0px 15px;
+  position: relative;
+  text-align: left;
+  border: 1px;
+  padding: 20px 20px 10px 20px;
+  border-radius: 8px;
+  border-left: 3px ridge;
+  border-right: 2px ridge;
+  border-top: 2px ridge;
+  border-bottom: 2px ridge;
+
+
+}
+
 
 #div1 {
   height: 150px;
